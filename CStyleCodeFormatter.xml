@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<profiles version="12">
+    <profile kind="CodeFormatterProfile" name="C-Style Formatter with Catch Next Line" version="12">
+        <!-- General indentation -->
+        <setting id="org.eclipse.jdt.core.formatter.tabulation.char" value="space"/>
+        <setting id="org.eclipse.jdt.core.formatter.tabulation.size" value="4"/>
+        <setting id="org.eclipse.jdt.core.formatter.indentation.size" value="4"/>
+        <setting id="org.eclipse.jdt.core.formatter.lineSplit" value="120"/>
+
+        <!-- Braces placement (Allman style) -->
+        <setting id="org.eclipse.jdt.core.formatter.brace_position_for_type_declaration" value="next_line"/>
+        <setting id="org.eclipse.jdt.core.formatter.brace_position_for_method_declaration" value="next_line"/>
+        <setting id="org.eclipse.jdt.core.formatter.brace_position_for_constructor_declaration" value="next_line"/>
+        <setting id="org.eclipse.jdt.core.formatter.brace_position_for_block" value="next_line"/>
+        <setting id="org.eclipse.jdt.core.formatter.brace_position_for_switch" value="next_line"/>
+        <setting id="org.eclipse.jdt.core.formatter.brace_position_for_array_initializer" value="next_line"/>
+
+        <!-- Special: move catch/finally to next line -->
+        <setting id="org.eclipse.jdt.core.formatter.brace_position_for_catch" value="next_line"/>
+        <setting id="org.eclipse.jdt.core.formatter.brace_position_for_finally" value="next_line"/>
+        <setting id="org.eclipse.jdt.core.formatter.brace_position_for_else" value="next_line"/>
+
+        <!-- Indentation rules -->
+        <setting id="org.eclipse.jdt.core.formatter.indent_statements_compare_to_block" value="true"/>
+        <setting id="org.eclipse.jdt.core.formatter.indent_statements_compare_to_body" value="true"/>
+        <setting id="org.eclipse.jdt.core.formatter.indent_body_declarations_compare_to_type_header" value="true"/>
+        <setting id="org.eclipse.jdt.core.formatter.indent_body_declarations_compare_to_enum_declaration_header" value="true"/>
+        <setting id="org.eclipse.jdt.core.formatter.indent_switchstatements_compare_to_switch" value="true"/>
+        <setting id="org.eclipse.jdt.core.formatter.indent_switchstatements_compare_to_cases" value="true"/>
+    </profile>
+</profiles>
